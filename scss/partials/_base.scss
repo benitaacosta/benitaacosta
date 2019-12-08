@@ -1,0 +1,176 @@
+header{
+   background-color: rgb(26, 179, 226);
+   text-align:center;
+   margin:auto;
+}
+
+.my-image{
+    max-width:1200px;
+    width:100%;
+    margin:auto;
+}
+
+@media all and (max-width: 576px) {
+    .phone { display: none; }
+  }
+
+.my-container{
+    margin: -32px;
+    padding: 0;
+    border-radius: 2px;
+}
+
+.my-text{
+    margin-top:5px;
+}
+
+.fa {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+.fa-facebook{
+    width:45px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+article{
+    float: left;
+    max-width: 100%;
+}
+
+section {
+    float:right;
+    max-width:100%;
+}
+
+
+.contact{
+    padding: 20px;
+    display: inline;
+    color: white;
+    font-size: 1.5em;
+}
+
+footer{
+    height: 90px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    a:link {
+        background-color: #008fd6;
+        padding:1px 2px 1px 2px;
+        margin-left:30px;
+        font-size: 2em;
+        border-radius: 5px;
+    }
+}
+
+.fa-facebook-square{
+    color:white;
+}
+
+.fa-facebook-square:hover{
+        color: #004b70;
+}
+
+.fa-instagram{
+    color:white;
+}
+
+.fa-instagram:hover{
+        color: #004b70;
+}
+
+.fa-linkedin-square{
+    color:white;
+}
+
+.fa-linkedin-square:hover{
+        color: #004b70;
+}
+
+.phone{
+    width: 100%;
+    font-family: 'Ranga', cursive;
+    font-size: 30px;
+    animation: infinite;
+    animation-delay: 1s;
+    float: right;
+}
+
+.my-navbar{
+    a{
+        float:right;
+        color: white;
+    }
+    :hover{
+        color: rgb(0, 195, 255);
+        text-decoration: none;
+    }
+}
+
+.testimonials{
+    font-size:2em;
+    color:#0098e4;
+    font-family: 'Oswald', sans-serif;
+}
+
+.carousel{
+    width: 100%;
+    height:100%;
+    margin:2px;
+    text-align:center;
+    background-color:white;
+    border:solid 15px;
+    border-color: #008fd6;
+    border-radius: 20px;
+}
+
+.me{
+    max-width:500px;
+    width:100%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px grey;
+    margin-bottom:20px;
+}
+
+iframe{
+    width:100%;
+    min-height:410px;
+}
+
+.carousel-item{
+   height:100%;
+   border-radius: 20px;
+}
+
+.my-controls{
+    background-color: #008fd6;
+    height: 30px;
+    max-width:60px;
+    transform: translateY(1450%);
+    border-radius: 5px;
+    border:solid 2px;
+    border-color: #006ca1;
+}
+.left-info{
+    text-align:center;
+    float: left;
+}
+.right-info{
+    text-align: center;
+    float:right;
+}
+
+.btn{
+    width: 200px;
+}
+
+.bullets{
+    padding-left: 40px;
+}
